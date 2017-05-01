@@ -16,6 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Bai1Navigation.NavigationDemo"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Bai2CustomNavigation.CustomNavigationActivity" />
+        <activity android:name=".Bai3FloatLableEditText.FloatLableEditText" />
+        <activity android:name=".Bai4AppBarLayoutCollapsingToolbarLayout.AppBarLayout.AppBarLayout" />
+        <activity android:name=".Bai4AppBarLayoutCollapsingToolbarLayout.AppBarLayout.CollapsingToolbarLayout" />
+        <activity android:name=".Bai5TabsLayOut.TextTab.TextTabActivity" />
+        <activity android:name=".Bai5TabsLayOut.ScrollTabs.ScrollTabsActivity" />
+        <activity android:name=".Bai5TabsLayOut.CustomTabs.CustomTabsActivity" />
+        <activity android:name=".Bai6RecyclerView.RecyclerViewCardViewDemo" />
+        <activity android:name=".Bai6RecyclerView.MultiViewRecycler.Bai6MultiViewrecycler"></activity>
     </application>
 
 </manifest>

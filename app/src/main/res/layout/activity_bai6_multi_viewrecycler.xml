@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.qvietd.materialdesignexample.Bai6RecyclerView.MultiViewRecycler.Bai6MultiViewrecycler">
+    <include
+        android:id="@+id/toolbar_bai6_view"
+        layout="@layout/toolbar"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_bai6_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
